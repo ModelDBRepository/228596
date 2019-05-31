@@ -1,0 +1,32 @@
+The simulation program produces the computational figures of the article:
+
+Mechanisms underlying a thalamocortical transformation during active tactile
+sensation
+Diego Adrian Gutnisky, Jianing Yu, Samuel Andrew Hires1, Minh-Son To,
+Michael Bale, Karel Svoboda, David Golomb.
+
+The directories are:
+
+simulation_program: files of the simulation program in C.
+To compile the program, write:
+make tc
+
+scripts: auxiliary scripts that are used to process data from the simulations
+and generate figures using XMGRace.
+
+generate_figures: generate panels from figures in the paper. 
+
+parameter_survey: generate panels from figures in the paper with parameter
+surveys.
+
+The reference parameter file, in both generate_figures and parameter_survey,
+is tc.n.a1.
+
+Each command procedure in generate_figures is named figureXX.com.
+It modifies the parameter file, runs simulations and ises scripts to process
+the data and generates the figures. See README in that directory.
+
+In parameter_survey, python scripts are used to generate parameter files.
+After the program is run for those files, the python scripts mav.py and pavh.py
+generate panels. See README in that directory.
+

@@ -1,0 +1,23 @@
+Parameter survey
+----------------
+
+The command parsur.py generates the data files for the program tc.ex. It is
+recommended to run those file on a computer cluster.
+
+The command procedure mav.py generates the following panels:
+
+mav.sfr.a.ET.I: Figure 10b
+mav.sfr.a.ET.I: Figure 10e
+mav.sfr.a.EE.I: Figure 8b
+mav.sfr.a.PE.I: Figure 9b
+mav.sfr.a.EP.I: Figure 9e
+mav.sfr.a.PP.I: Figure 9h
+
+The command procedure pavh.py generates the following panels:
+pavh.spt.c.ET.I: Figure 10c
+pavh.spt.c.PT.I: Figure 10f
+pavh.spt.c.PE.I: Figure 9c
+pavh.spt.c.EP.I: Figure 9f
+pavh.spt.c.PP.I: Figure 9i
+
+

@@ -1,0 +1,39 @@
+figure6a.com: generates voltage time courses of 8 E neurons and 8 I neurons
+without touch. The top two traces are plotted in Fig. 6a.
+
+figure6b.com: generates the firing rate nu vs. A_T for whisking without
+touch.
+
+figure6c.com: generates voltage time courses of 8 E neurons and 8 I neurons
+with touch. The top two traces are plotted in Fig. 6c.
+
+figure6d_8di.com: generates the histograms of Fig. 6d (identical to 8f,g),
+Fig. 8d,e and Fig. 8 h,i.
+
+figure7d.com: generates graphs of R (spikes/touch) vs. tau_delay^EI of Fig. 7a.
+
+figure7d.com: generates graphs of R (spikes/touch) vs. t_AMPA of Fig. 7b.
+
+figure7d.com: generates graphs of R (spikes/touch) vs. C_T of Fig. 7c.
+
+figure7d.com: generates graphs of R (spikes/touch) vs. A_T of Fig. 7d.
+
+figure8c.com: generates graphs of R (spikes/touch) vs. g_EE of Fig. 8c.
+
+figure11ab.com: generates graphs of nu (spikes/s) with halo activation by
+photostimulation vs. nu without photostimulaton for the L4E, L4I(Hr^+) and
+L4I(Hr-) neurons. Fig. 11a,b.
+
+figure11cdef.com: generates graphs of R (spikes/touch) with halo activation by
+photostimulation vs. R without photostimulaton for the L4E, L4I(Hr^+) and
+L4I(Hr-) neurons. Fig. 11c,d. In addition, histograms of spikes/s after touch
+are generated for the 3 neuronal populations, Fig. 11e,f. The program uses the
+file tc.fri.b8 produced by the command procedure figure6d.com .
+
+figure11gh.com: generates the firing rate nu vs. A_T for whisking without
+touch for the three neuronal populations: L4E, L4I(Hr+) and L4I(Hr-).
+
+figure12a.com: generates graphs of R (spikes/touch) vs. f_halo of Fig. 12a.
+
+figure12b.com: generates graphs of nu (spikes/s) vs. f_halo of Fig. 12b.
+
